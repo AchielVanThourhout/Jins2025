@@ -121,4 +121,47 @@ body {
       padding: 1.5rem 1rem;
     }
   }
+
+.about, .actions, .cta {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  margin: 1.5rem auto;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.actions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.actions li {
+  padding: 0.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  background: #3A2A20;
+  color: #FDF5D1;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #5a4030;
+}
+
   
